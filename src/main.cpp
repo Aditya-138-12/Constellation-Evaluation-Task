@@ -7,7 +7,8 @@
  * - Click on **Files** to explore the source code.
  *
  * @section intro Introduction
- * This project demonstrates a simple Qt application, in which we have button and a barchart, when the button is pressed the barchart increases linearly
+ * This project demonstrates a simple Qt application, in which we have 2 buttons [Increase and Reset] and a barchart, when the Increase button is pressed the barchart increases linearly, 
+ * when the Reset button is pressed the bar chart resets along with its Y-Axis, also label resets too. 
  *
  * @section install Installation
  * 1. Make sure you have these libraries installed in your system `libqt5charts5` `libqt5charts5-dev`

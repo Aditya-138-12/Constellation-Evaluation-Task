@@ -28,7 +28,7 @@ MainWindow::MainWindow(){
     label->setAlignment(Qt::AlignCenter);
     label->setStyleSheet("font-size:24px;");
 
-    QPushButton *button = new QPushButton("Click Me", this);
+    QPushButton *button = new QPushButton("Increase", this);
     connect(button, &QPushButton::clicked, this, &MainWindow::increaseNumber);
     button->setGeometry(350, 760, 100, 40);
 
