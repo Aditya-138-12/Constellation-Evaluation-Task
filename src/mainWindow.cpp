@@ -1,9 +1,20 @@
+/**
+ * @file mainWindow.cpp
+ * @brief Implementation of the MainWindow class.
+ */
+
 #include "mainWindow.h"
 #include "charts.h"
 #include <QPushButton>
 #include <QHBoxLayout>
 #include <QWidget>
 #include <QPainter>
+
+/**
+ * @brief Constructor for MainWindow
+ * 
+ * Initializes the UI with a QLabel, QPushButton and a bar chart
+ */
 
 MainWindow::MainWindow(){
     setWindowTitle("QT + Meson Dynamic Bar Chart");
@@ -29,10 +40,18 @@ MainWindow::MainWindow(){
     
 }
 
+/**
+ * @brief Destructor for MainWindow
+ * 
+ * cleans up dynamically given resources
+ */
 MainWindow::~MainWindow() {
     delete chart;
 }
 
+/**
+ * @brief Increases the number and updates the chart
+ */
 void MainWindow::increaseNumber(){
     number++;
     label->setText(QString::number(number));

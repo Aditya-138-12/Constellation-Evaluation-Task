@@ -1,3 +1,7 @@
+/**
+ * @file main.cpp
+ * @brief Entry point of the application
+ */
 #include <QApplication>
 #include <QMainWindow>
 #include <QPushButton>
@@ -11,7 +15,11 @@
 /**
  * @brief Main Function
  * 
- * This is the entry point of the program.
+ * Initializes the QApplication and MainWindow.
+ * 
+ * @param argc Number of command-line arguments.
+ * @param argv Array of command-line arguments.
+ * @return int application exit status.
  */
 
 int main(int argc, char *argv[]){

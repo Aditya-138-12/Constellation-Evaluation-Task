@@ -1,0 +1,12 @@
+<map id="/home/aditya&#45;saroha/Desktop/constellation_qt_demo/src/charts.h" name="/home/aditya&#45;saroha/Desktop/constellation_qt_demo/src/charts.h">
+<area shape="rect" id="Node000001" title="Decleration of the Charts class." alt="" coords="139,5,307,60"/>
+<area shape="rect" id="Node000002" href="$charts_8cpp.html" title="Implementation of the Charts class." alt="" coords="5,108,185,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,70,131,110,127,106,178,66"/>
+<area shape="rect" id="Node000003" href="$mainWindow_8cpp.html" title="Implementation of the MainWindow class." alt="" coords="111,211,335,265"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,74,226,210,221,210,221,74"/>
+<area shape="rect" id="Node000004" href="$mainWindow_8h.html" title="Decleration of the MainWindow class." alt="" coords="261,108,471,163"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="273,66,330,106,327,110,270,70"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="319,173,262,213,259,208,316,168"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html" title="Entry point of the application." alt="" coords="359,211,533,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="397,172,427,209,423,212,393,175"/>
+</map>

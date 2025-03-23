@@ -1,6 +1,16 @@
+/**
+ * @file charts.cpp
+ * @brief Implementation of the Charts class
+ */
 #include "charts.h"
 #include <QPainter>
 
+/**
+ * @brief Constructor for Charts
+ * 
+ * Initializes a bar chart with an initial value of 0
+ * @param title Title of the chart
+ */
 Charts::Charts(const QString &title){
     chart = new QChart();
     chart->setTitle(title);
@@ -34,10 +44,21 @@ Charts::Charts(const QString &title){
 
 }
 
+/**
+ * @brief Destructor for Charts
+ * 
+ * Qt will automatically handle object destruction or more formally memory cleanup
+ */
 Charts::~Charts(){
     // Will be automatically handled by Qt
 }
 
+/**
+ * @brief Updates the bar chart with a new value
+ * 
+ * Replaces the existing the value and adjusts the Y-axis range dynamically
+ * @param value New Value to update the chart with
+ */
 void Charts::updateValue(int value){
     barSet->replace(0, value);
     if(value > axisY->max()){

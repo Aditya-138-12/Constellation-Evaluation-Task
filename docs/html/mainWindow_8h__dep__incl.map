@@ -1,7 +1,7 @@
 <map id="/home/aditya&#45;saroha/Desktop/constellation_qt_demo/src/mainWindow.h" name="/home/aditya&#45;saroha/Desktop/constellation_qt_demo/src/mainWindow.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="98,5,307,60"/>
-<area shape="rect" id="Node000002" href="$main_8cpp.html" title=" " alt="" coords="5,108,179,163"/>
+<area shape="rect" id="Node000001" title="Decleration of the MainWindow class." alt="" coords="98,5,307,60"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html" title="Entry point of the application." alt="" coords="5,108,179,163"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,71,123,110,119,106,162,67"/>
-<area shape="rect" id="Node000003" href="$mainWindow_8cpp.html" title=" " alt="" coords="203,108,427,163"/>
+<area shape="rect" id="Node000003" href="$mainWindow_8cpp.html" title="Implementation of the MainWindow class." alt="" coords="203,108,427,163"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,67,287,106,284,110,240,71"/>
 </map>

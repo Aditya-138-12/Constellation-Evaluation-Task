@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7emainwindow_0',['~MainWindow',['../classMainWindow.html#ae98d00a93bc118200eeef9f9bba1dba7',1,'MainWindow']]]
+  ['getchartview_0',['getChartView',['../classCharts.html#ad95b1658e1dbde30af481c9f3fa74cdb',1,'Charts']]]
 ];
