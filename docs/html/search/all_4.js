@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['_7echarts_0',['~Charts',['../classCharts.html#ac9bbfce71a5bd499492c187ab4c01803',1,'Charts']]],
-  ['_7emainwindow_1',['~MainWindow',['../classMainWindow.html#ae98d00a93bc118200eeef9f9bba1dba7',1,'MainWindow']]]
+  ['getchartview_0',['getChartView',['../classCharts.html#ad95b1658e1dbde30af481c9f3fa74cdb',1,'Charts']]],
+  ['gsoc_20project_202025_1',['Qt Demo for Constellation GSoC Project 2025',['../index.html',1,'']]]
 ];

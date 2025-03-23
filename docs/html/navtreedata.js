@@ -24,7 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "Qt Demo for Constellation GSoC Project", "index.html", [
+  [ "Qt Demo for Constellation GSoC-2025 Project: Extending the User Interface", "index.html", [
+    [ "Qt Demo for Constellation GSoC Project 2025", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
