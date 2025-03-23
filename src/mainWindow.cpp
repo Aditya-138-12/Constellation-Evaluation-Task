@@ -26,50 +26,10 @@ MainWindow::MainWindow(){
     mainLayout->addWidget(label);
     mainLayout->addWidget(button);
     setCentralWidget(central);
-
-    // // Create chart
-    // chart = new QChart();
-    // chart->setTitle("Dynamic Bar Chart");
-    // chart->setAnimationOptions(QChart::SeriesAnimations);
-    
-    // // Create bar set and series
-    // barSet = new QBarSet("Values");
-    // *barSet << 0;  // Initial value
-    
-    // series = new QBarSeries();
-    // series->append(barSet);
-    // chart->addSeries(series);
-    
-    // // Setup axes
-    // QStringList categories;
-    // categories << "Value";
-    
-    // axisX = new QBarCategoryAxis();
-    // axisX->append(categories);
-    // chart->addAxis(axisX, Qt::AlignBottom);
-    // series->attachAxis(axisX);
-    
-    // axisY = new QValueAxis();
-    // axisY->setRange(0, 10);  // Initial range
-    // chart->addAxis(axisY, Qt::AlignLeft);
-    // series->attachAxis(axisY);
-    
-    // // Create chart view
-    // chartView = new QChartView(chart);
-    // chartView->setRenderHint(QPainter::Antialiasing);
-    
-    // // Add widgets to layout
-    // mainLayout->addWidget(chartView);
-    // mainLayout->addWidget(label);
-    // mainLayout->addWidget(button);
-    
-    // // Set the central widget
-    // setCentralWidget(central);  // Using the renamed variable
     
 }
 
 MainWindow::~MainWindow() {
-    // Qt will handle deleting the child widgets automatically
     delete chart;
 }
 
@@ -78,13 +38,3 @@ void MainWindow::increaseNumber(){
     label->setText(QString::number(number));
     chart->updateValue(number);
 }
-
-// void MainWindow::updateChart() {
-//     // Update bar set with new number
-//     barSet->replace(0, number);
-    
-//     // Adjust Y axis range if needed
-//     if (number > axisY->max()) {
-//         axisY->setMax(number + 5);  // Keep some space at the top
-//     }
-// }
