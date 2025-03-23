@@ -16,8 +16,8 @@ I have not built this with the Qt Creator, but if needed I am comfortable with i
 ## Building and Running ##
 1. Clone the Repository
 ```
-git clone https://github.com/[your-username]/[your-repo-name].git
-cd [your-repo-name]
+git clone https://github.com/Aditya-138-12/GSoC-2025-Constellation-Assignment.git qt
+cd qt
 ```
 2. Setup the build and compile
 ```
