@@ -1,6 +1,9 @@
 # Qt Demo for Constellation GSoC-2025 Project: Extending the User Interface 
 A simple Qt application built with C++20 and the Meson build system, created as a warm-up exercise for the CERN-HSF GSoC 2025 Constellation project. This app features a bar chart that increases linearly when a button is pressed, showcasing clean code, solid documentation, and a modern build setup.
 
+## Screenshot ##
+![Screenshot from 2025-03-23 14-23-27](https://github.com/user-attachments/assets/6ea9ff81-1d5c-49d6-b80e-f46f046b11a7)
+
 ## Introduction ##
 This small Qt application has a bar chart, 2 buttons and a label.
 The label keeps track of the current value in the bar chart.
