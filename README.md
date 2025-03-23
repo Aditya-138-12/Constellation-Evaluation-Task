@@ -1,6 +1,6 @@
-# Qt Demo for Constellation GSoC-2025 Project: Extending the User Interface
----
-## Introduction 
+# Qt Demo for Constellation GSoC-2025 Project: Extending the User Interface 
+
+## Introduction ##
 This small Qt application has a bar chart, 2 buttons and a label.
 The label keeps track of the current value in the bar chart.
 The Increase Button, changes the bar chart dynamically increasing its value.
