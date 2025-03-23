@@ -2,11 +2,7 @@
 A simple `Qt` application built with `C++20` and the Meson build system, created as a warm-up exercise for the `CERN-HSF GSoC 2025 Constellation` project. This app features a bar chart that increases linearly when a button is pressed, showcasing clean code, solid documentation, and a modern build setup.
 
 ## Prerequisites ##
-Qt 5
-
-Meson
-
-Ninja
+Qt 5, Meson, Ninja
 
 ## Introduction ##
 This small Qt application has a bar chart, 2 buttons and a label.
