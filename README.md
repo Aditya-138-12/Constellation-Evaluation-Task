@@ -30,7 +30,7 @@ ninja -C bin
 ```
 
 ## Documentation ##
-Detailed code documentation is generated with Doxygen and hosted on GitHub Pages:[here](https://aditya-138-12.github.io/GSoC-2025-Constellation-Assignment/html/index.html)
+Detailed code documentation is generated with Doxygen and hosted on GitHub Pages: [here](https://aditya-138-12.github.io/GSoC-2025-Constellation-Assignment/html/index.html)
 
 ## Project Structure ##
 `main.cpp`: Entry point for the application.
