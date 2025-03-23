@@ -66,7 +66,10 @@ void Charts::updateValue(int value){
     }
 }
 
-
+/**
+ * @brief Implementation of the ChartReset(), it calls the Charts::UpdateValue(), with 0 as the argument
+ * and resets the Y-Axis
+ */
 void Charts::chartReset(){
     Charts::updateValue(0);
     axisY->setRange(0, 10);

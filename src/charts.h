@@ -49,5 +49,9 @@ public:
      * @param value New value to be added to the chart
      */
     void updateValue(int value);
+
+    /**
+     * @brief This function is used to reset the Bar chart.
+     */
     void chartReset();
 };

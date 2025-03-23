@@ -40,5 +40,9 @@ private slots:
      * which is defined in the charts.h
      */
     void increaseNumber();
+    
+    /**
+     * @brief This function is used to reset the bar chart, it basically sets the number to 0 and class Charts::chartReset()
+     */
     void reset();
 };

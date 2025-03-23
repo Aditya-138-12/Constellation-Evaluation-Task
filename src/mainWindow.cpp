@@ -63,6 +63,9 @@ void MainWindow::increaseNumber(){
     chart->updateValue(number);
 }
 
+/**
+ * @brief Sets the number to 0, updates the label, calls the chartReset()
+ */
 void MainWindow::reset(){
     number = 0;
     label->setText(QString::number(number));
