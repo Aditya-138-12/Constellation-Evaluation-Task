@@ -20,9 +20,9 @@ MainWindow::MainWindow(){
     setWindowTitle("QT + Meson Dynamic Bar Chart");
     resize(800, 800);
 
-    // Create central widget and layout
-    QWidget *central = new QWidget();  // Renamed to avoid conflict
-    QVBoxLayout *mainLayout = new QVBoxLayout(central);  // Now defined in scope
+
+    QWidget *central = new QWidget(); 
+    QVBoxLayout *mainLayout = new QVBoxLayout(central); 
 
     label = new QLabel(QString::number(number), this);
     label->setAlignment(Qt::AlignCenter);
@@ -32,10 +32,15 @@ MainWindow::MainWindow(){
     connect(button, &QPushButton::clicked, this, &MainWindow::increaseNumber);
     button->setGeometry(350, 760, 100, 40);
 
+    QPushButton *reset = new QPushButton("Reset", this);
+    connect(reset, &QPushButton::clicked, this, &MainWindow::reset);
+    reset->setGeometry(450, 760, 100, 40);
+
     chart = new Charts("Dynamic Bar Chart");
     mainLayout->addWidget(chart->getChartView());
     mainLayout->addWidget(label);
     mainLayout->addWidget(button);
+    mainLayout->addWidget(reset);
     setCentralWidget(central);
     
 }
@@ -56,4 +61,10 @@ void MainWindow::increaseNumber(){
     number++;
     label->setText(QString::number(number));
     chart->updateValue(number);
+}
+
+void MainWindow::reset(){
+    number = 0;
+    label->setText(QString::number(number));
+    chart->chartReset();
 }

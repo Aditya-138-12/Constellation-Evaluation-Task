@@ -18,13 +18,13 @@ Charts::Charts(const QString &title){
     
     // Create bar set and series
     barSet = new QBarSet("Values");
-    *barSet << 0;  // Initial value
+    *barSet << 0;  // Initial value is 0
     
     series = new QBarSeries();
     series->append(barSet);
     chart->addSeries(series);
     
-    // Setup axes
+    // axes
     QStringList categories;
     categories << "Value";
     
@@ -34,7 +34,7 @@ Charts::Charts(const QString &title){
     series->attachAxis(axisX);
     
     axisY = new QValueAxis();
-    axisY->setRange(0, 10);  // Initial range
+    axisY->setRange(0, 10);  // initial range which willbe shown initially and then updated gradually
     chart->addAxis(axisY, Qt::AlignLeft);
     series->attachAxis(axisY);
     
@@ -64,4 +64,10 @@ void Charts::updateValue(int value){
     if(value > axisY->max()){
         axisY->setMax(value + 5);
     }
+}
+
+
+void Charts::chartReset(){
+    Charts::updateValue(0);
+    axisY->setRange(0, 10);
 }

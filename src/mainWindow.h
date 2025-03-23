@@ -40,4 +40,5 @@ private slots:
      * which is defined in the charts.h
      */
     void increaseNumber();
+    void reset();
 };

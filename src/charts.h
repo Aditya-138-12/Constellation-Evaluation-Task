@@ -49,4 +49,5 @@ public:
      * @param value New value to be added to the chart
      */
     void updateValue(int value);
+    void chartReset();
 };
