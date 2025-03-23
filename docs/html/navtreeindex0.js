@@ -3,6 +3,7 @@ var NAVTREEINDEX0 =
 "annotated.html":[0,0],
 "classMainWindow.html":[0,0,0],
 "classMainWindow.html#a34c4b4207b46d11a4100c9b19f0e81bb":[0,0,0,0],
+"classMainWindow.html#ae98d00a93bc118200eeef9f9bba1dba7":[0,0,0,1],
 "classes.html":[0,1],
 "dir_68267d1309a1af8e8297ef4c3efbcdba.html":[1,0,0],
 "files.html":[1,0],
