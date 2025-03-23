@@ -3,8 +3,11 @@ A simple Qt application built with C++20 and the Meson build system, created as 
 
 ## Prerequisites ##
 Qt 6 (or Qt 5, depending on your version—specify here)
+
 Meson (version 0.60 or later recommended)
+
 Ninja
+
 A C++20-compatible compiler (e.g., GCC 11+, Clang 13+)
 
 ## Introduction ##
