@@ -50,6 +50,6 @@ moc_files = qt5.preprocess(
 )
 
 executable('exe', 
-    ['src/main.cpp', 'src/mainWindow.cpp', moc_files],
+    ['src/main.cpp', 'src/mainWindow.cpp', 'src/charts.cpp', moc_files],
     dependencies: qt_dep
 )
