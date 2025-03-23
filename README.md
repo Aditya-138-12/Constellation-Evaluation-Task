@@ -40,3 +40,12 @@ ninja -C bin
 ```
 ./bin/exe
 ```
+
+## Documentation ##
+Detailed code documentation is generated with Doxygen and hosted on GitHub Pages:[here](https://aditya-138-12.github.io/GSoC-2025-Constellation-Assignment/html/index.html)
+
+## Project Structure ##
+main.cpp: Entry point for the application.
+mainWindow.cpp / mainWindow.h: Main window logic and UI setup.
+charts.cpp / charts.h: Bar chart functionality.
+meson.build: Meson build configuration.
