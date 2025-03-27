@@ -11,7 +11,7 @@ The Increase Button, changes the bar chart dynamically increasing its value.
 The Reset button resets the bar chart.
 
 ## Approach ##
-I have not built this with the Qt Creator, but if needed I am comfortable with it too, Used the meson build system, and the documentation generated with the Doxygen, please see the docs [here](https://aditya-138-12.github.io/GSoC-2025-Constellation-Assignment/html/index.html), I have checked the Constellation, its documentation is in sphinx, right now i am comfortable in doxygen so i have used it, but in the future we can possibly use `sphinx` + `breathe` to generate the docs.
+I have not built this with the Qt Creator, but if needed I am comfortable with it too, Used the meson build system, and the documentation generated with the Doxygen, please see the docs [here](https://aditya-138-12.github.io/Constellation-Evaluation-Task/html/index.html), I have checked the Constellation, its documentation is in sphinx, right now i am comfortable in doxygen so i have used it, but in the future we can possibly use `sphinx` + `breathe` to generate the docs.
 
 ## Building and Running ##
 1. Clone the Repository
@@ -30,7 +30,7 @@ ninja -C bin
 ```
 
 ## Documentation ##
-Detailed code documentation is generated with Doxygen and hosted on GitHub Pages: [here](https://aditya-138-12.github.io/GSoC-2025-Constellation-Assignment/html/index.html)
+Detailed code documentation is generated with Doxygen and hosted on GitHub Pages: [here](https://aditya-138-12.github.io/Constellation-Evaluation-Task/html/index.html)
 
 ## Project Structure ##
 `main.cpp`: Entry point for the application.
