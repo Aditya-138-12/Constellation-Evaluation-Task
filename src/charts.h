@@ -10,7 +10,7 @@
 #include <QtCharts/QChartView>
 #include <QtCharts/QValueAxis>
 
-QT_CHARTS_USE_NAMESPACE
+// QT_CHARTS_USE_NAMESPACE
 
 /**
  * @class Charts

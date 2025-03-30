@@ -9,5 +9,7 @@
         "random": "cpp",
         "limits": "cpp",
         "semaphore": "cpp"
-    }
+    },
+    "C_Cpp.default.compileCommands": "/home/aditya-saroha/Desktop/constellation_qt_demo/builddir/compile_commands.json",
+    "C_Cpp.default.configurationProvider": "mesonbuild.mesonbuild"
 }
