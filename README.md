@@ -1,3 +1,5 @@
+# Update -> Passed the Evaluation test, Wrote proposal but project ended up not getting any slots from the google.
+
 # Qt Demo for Constellation GSoC-2025 Project: Extending the User Interface 
 A simple `Qt` application built with `C++20` and the Meson build system, created as a warm-up exercise for the `CERN-HSF GSoC 2025 Constellation` project. This app features a bar chart that increases linearly when a button is pressed, showcasing clean code, solid documentation, and a modern build setup.
 
